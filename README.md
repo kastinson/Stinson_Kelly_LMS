@@ -7,7 +7,7 @@ The LMS is built using the **Model-View-Controller (MVC)** architectural pattern
 
 ## Features
 - **Add a Book**: Allow a user to add a single book to the collection.
-- **Remove a Book**: Allows a user to delete a book from the collection by entering its barcode.
+- **Remove a Book**: Allows a user to delete a book from the collection by entering its barcode or title.
 - **Check Out a Book**: Allows a user to check out a book for 4 weeks by entering its barcode.
 - **Check In a Book**: Allows a user to check in a book that was previously checked out.
 - **Display Books**: Displays all books in the collection, including details like title, author, genre, barcode, status (Checked In or Checked Out), and due date (if applicable).
@@ -81,9 +81,9 @@ The LMS is built using the **Model-View-Controller (MVC)** architectural pattern
 - The system will add the book to the collection with the status "Checked In."
 
 ### 2. Remove a Book
-- You will be prompted to enter the barcode of the book.
+- You will be prompted to enter the barcode or title of the book.
 - The system will delete the book from the collection.
-- 
+
 ### 3. Check Out a Book
 - You will be prompted to enter the barcode of the book.
 - The system will check if the book is available and, if so, mark it as checked out with the specified due date.
